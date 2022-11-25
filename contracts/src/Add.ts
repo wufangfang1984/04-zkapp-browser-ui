@@ -13,7 +13,6 @@ export class Add extends SmartContract {
   @state(Field) num = State<Field>();
 
   @method init() {
-    //    super.init();
     this.num.set(Field(1));
   }
 
